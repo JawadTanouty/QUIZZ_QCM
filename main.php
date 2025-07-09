@@ -71,9 +71,9 @@ for ($i = 0; $i < $NB_QUESTIONS; $i++) {
 affichageScore($score);
 $pourcentage_reponse = ($score / ($NB_QUESTIONS * 10)) * 100;
 if ($pourcentage_reponse > 50) {
-    echo "BRAVO !!!! Vous etes pas si mauvais !!!!!!!!!\n";
+    echo "BRAVO !!!! T'es pas si mauvais !!!!!!!!!\n";
 } else {
-    echo "GAME OVER ! Pauvre de toi, va réviser !\n";
+    echo "GAME OVER ! Keep on trying dear !\n";
 }
 echo "Score Final : $score / $score_maximum\n";
 echo "Votre pourcentage de bonne réponse est de : $pourcentage_reponse% !\n";
